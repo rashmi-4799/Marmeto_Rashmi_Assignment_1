@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmeto</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./logic.js" async></script>
+</head>
+<body>
+    <div class="parent"> 
+        <div class="parent-container">
+            <div class="container">
+                <div class="container-left">
+                    <div class="main-img">
+                        <!-- <img src="./assests/main-img.png" alt="" class="product-img"> -->
+                    </div>
+                    
+                    <div class="thumbnail-img">
+
+                    </div>
+                </div>
+                <div class="container-right">
+                    <span id="mhead" class="mini-heading"></span>
+                    <span class="heading"></span>
+                    <hr class="horiz">
+                    <div class="price">
+                        <span class="dsc-price"></span>
+                        <span class="discount">35% Off</span>
+                    </div>
+                    <span class="og-price"></span>
+                    <hr class="horiz">
+                    <div class="color">
+                        <span class="color-heading">Choose a color</span>
+                        <div class="color-container ">
+                            <div class="color-box pink">
+                                <div class="inside-box light-pink"></div>
+                            </div>
+                            <div class="color-box green">
+                                <div class="inside-box light-green"></div>
+                            </div>
+                            <div class="color-box blue">
+                                <div class="inside-box light-blue"></div>
+                            </div>
+                            <div class="color-box pink">
+                                <div class="inside-box dark-pink"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="horiz">
+                    <div class="size">
+                        <span class="size-heading">Choose a Size</span>
+                        <div class="size-box">
+                            <div class="box-size w61">
+                                <input type="radio" id="s1" name="size" value="small">
+                                <span class="box-name" >Small</span>
+                            </div>
+                            <div class="box-size w78">
+                                <input type="radio" id="s2" name="size" value="medium">
+                                <span class="box-name" value="">Medium</span>
+                            </div>
+                            <div class="box-size w62">
+                                <input type="radio" id="s3" name="size" value="large">
+                                <span class="box-name" value="">Large</span>
+                            </div>
+                            <div class="box-size w101">
+                                <input type="radio" id="s4" name="size" value="extra large">
+                                <span class="box-name" value="">Extra Large</span>
+                            </div>
+                            <div class="box-size w51">
+                                <input type="radio" id="s5" name="size" value="xxl">
+                                <span class="box-name" value="">XXL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="editor">
+                            <span class="minus">-</span>
+                            <span class="num"></span>
+                            <span class="plus">+</span>
+                        </div> 
+                        <div class="btn-cart">
+                            <div class="count">11</div>
+                            <button class="cart-btn">
+                                <img src="./assests/Vector.png" alt="" class="cart-icon">
+                                Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="Popup-msg hide">
+                        <p class="msg">Embrace sideboard with color <span id="color"></span> and size <span id="size"></span> added to cart</p>
+                   </div>
+                    <hr class="horiz">
+                    <div class="details">
+                        <span class="content">
+                            The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. 
+                            Crafted from premium materials for a combination of style, durability, and reliability.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
